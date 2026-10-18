@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FAF8F3;
+    color: #191816;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-mono-data {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Modernist crisp borders and offsets */
+.box-retro {
+  border: 1px solid #191816;
+  box-shadow: 2px 2px 0px #191816;
+}
+
+.box-retro-sm {
+  border: 1px solid #191816;
+  box-shadow: 1.5px 1.5px 0px #191816;
+}
+
+.box-retro-blue {
+  border: 1px solid #191816;
+  box-shadow: 2px 2px 0px #1D4ED8;
+}
+
+.box-retro-red {
+  border: 1px solid #191816;
+  box-shadow: 2px 2px 0px #D9381E;
+}

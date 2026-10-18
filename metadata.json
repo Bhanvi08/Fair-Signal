@@ -1,0 +1,9 @@
+{
+  "name": "FairSignal",
+  "description": "A human-review layer prototype for remote assessments that groups timestamped events into a reviewable timeline and leaves decisions to human reviewers.",
+  "requestFramePermissions": [
+    "camera",
+    "CAMERA"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
